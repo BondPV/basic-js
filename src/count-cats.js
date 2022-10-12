@@ -27,10 +27,6 @@ function countCats(arr) {
     return catCount;
 }
 
-let arr = [[0, 1, '^^'], [0, '^^', 2], ['^^', 1, 2]];
-
-console.log(countCats(arr));
-
 module.exports = {
   countCats
 };

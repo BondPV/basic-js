@@ -28,17 +28,6 @@ function dateSample(sampleActivity) {
 
 }
 
-console.log(dateSample('1'), 
-dateSample('WOOT!'),
-dateSample('9000'),
-dateSample('-5'),
-dateSample(' '),
-dateSample(' \n\t\r'),
-dateSample(''),
-dateSample(2),
-dateSample('-54'),
-);
-
 module.exports = {
   dateSample
 };
